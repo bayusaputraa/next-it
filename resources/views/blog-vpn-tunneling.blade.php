@@ -11,7 +11,7 @@
   <meta name="author" content="Admin" />
   <meta name="robots" content="index, follow" />
 
-  <title>Tunneling Server by VPN Mikrotik</title>
+  <title>Tunneling Server by VPN Mikrotik - Tech Info</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="{{ asset('assets/images/Logos.ico') }}" type="image/x-icon" />

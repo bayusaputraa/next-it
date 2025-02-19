@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Ensures that the correct files are passed to Laravel's routing
+<IfModule mod_php7.c>
+    AddHandler application/x-httpd-php74 .php
+</IfModule>
+
+# Redirect www to non-www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.next-it\.my\.id$ [NC]
+RewriteRule ^(.*)$ https://next-it.my.id/$1 [L,R=301]
+
+# PHP Settings (Optional, configure as needed)
+php_flag display_errors off
+php_value memory_limit 256M
+php_value max_execution_time 300

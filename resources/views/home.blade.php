@@ -59,6 +59,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!--
+    - ionicons link
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.0.0/dist/ionicons/ionicons.min.css">
+
+  <!--
     - chatbit link
   -->
   <link href="https://app.chatbit.co/iframe/bac78cec-1ffa-4c24-a2c4-04677b8c27c7" rel="chatbot" />
@@ -211,31 +216,44 @@
 
         <div class="separator"></div>
 
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.youtube.com/channel/UCNIpYfaIOgdbWkPtA33P5TQ" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
+        <div class="socials-media text-center">
+            <ul class="list-unstyled" style="
+                  display: flex;
+                  gap: 15px;
+                  justify-content: center;
+                  padding: 0;
+                ">
+              <li style="list-style: none">
+                <a href="https://www.youtube.com/channel/UCNIpYfaIOgdbWkPtA33P5TQ" target="_blank">
+                  <i class="bi bi-youtube" style="font-size: 24px; color: hsl(0, 0%, 84%)"></i>
+                </a>
+              </li>
 
-          <li class="social-item">
-            <a href="https://github.com/bayusaputraa" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
+              <li style="list-style: none">
+                <a href="https://www.instagram.com/filesystem_" target="_blank">
+                  <i class="bi bi-instagram" style="font-size: 24px; color: hsl(0, 0%, 84%)"></i>
+                </a>
+              </li>
 
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/bayusaputra05/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
+              <li style="list-style: none">
+                <a href="https://www.linkedin.com/in/bayusaputra05/" target="_blank">
+                  <i class="bi bi-linkedin" style="font-size: 24px; color: hsl(0, 0%, 84%)"></i>
+                </a>
+              </li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-        </ul>
+              <li style="list-style: none">
+                <a href="https://linktr.ee/bayusaputra54" target="_blank">
+                  <i class="bi bi-link" style="font-size: 24px; color: hsl(0, 0%, 84%)"></i>
+                </a>
+              </li>
+
+              <li style="list-style: none">
+                <a href="https://github.com/bayusaputraa" target="_blank">
+                  <i class="bi bi-github" style="font-size: 24px; color: hsl(0, 0%, 84%)"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
       </div>
     </aside>
 

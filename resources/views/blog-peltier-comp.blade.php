@@ -11,7 +11,7 @@
   <meta name="author" content="Bayu Saputra" />
   <meta name="robots" content="index, follow" />
 
-  <title>Education Story - Personal Portfolio</title>
+  <title>Peltier Innovation Project - Personal Portfolio</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="{{ asset('assets/images/Logos.ico') }}" type="image/x-icon" />
